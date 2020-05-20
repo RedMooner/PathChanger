@@ -1,0 +1,11 @@
+C:\Users\motyr\source\repos\FileChanger\FileChanger\bin\Release\FileChanger.exe.config
+C:\Users\motyr\source\repos\FileChanger\FileChanger\bin\Release\FileChanger.exe
+C:\Users\motyr\source\repos\FileChanger\FileChanger\bin\Release\FileChanger.pdb
+C:\Users\motyr\source\repos\FileChanger\FileChanger\obj\Release\FileChanger.csprojAssemblyReference.cache
+C:\Users\motyr\source\repos\FileChanger\FileChanger\obj\Release\FileChanger.Form1.resources
+C:\Users\motyr\source\repos\FileChanger\FileChanger\obj\Release\FileChanger.Properties.Resources.resources
+C:\Users\motyr\source\repos\FileChanger\FileChanger\obj\Release\FileChanger.csproj.GenerateResource.cache
+C:\Users\motyr\source\repos\FileChanger\FileChanger\obj\Release\FileChanger.csproj.CoreCompileInputs.cache
+C:\Users\motyr\source\repos\FileChanger\FileChanger\obj\Release\FileChanger.exe
+C:\Users\motyr\source\repos\FileChanger\FileChanger\obj\Release\FileChanger.pdb
+C:\Users\motyr\source\repos\FileChanger\FileChanger\obj\Release\FileChanger.AboutForm.resources
