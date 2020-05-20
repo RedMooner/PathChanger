@@ -53,6 +53,13 @@ namespace FileChanger
                         {
                             File.Move(fi.FullName, System.IO.Path.Combine(label5.Text, fi.Name));
                         }
+                        else
+                        {
+                            if (checkBox2.Checked)
+                            {
+                                File.Move(fi.FullName, System.IO.Path.Combine(label10.Text, fi.Name));
+                            }
+                        }
 
                     }
                 }
@@ -233,6 +240,38 @@ namespace FileChanger
                 "Раздел Выберете разширение (Выбираете из трех предложенных типоы файлов один , для его сортировки) \n" +
                 " ЧекБокс Все разширения (Выбирает все разширения из списка) \n ";
             aboutForm.ShowDialog();
+        }
+
+        private void checkBox2_CheckedChanged(object sender, EventArgs e)
+        {
+            if (checkBox2.Checked)
+            {
+                panel4.Visible = true;
+            }
+            else
+            {
+
+                panel4.Visible = false;
+            }
+        }
+
+        private void button9_Click(object sender, EventArgs e)
+        {
+            folderBrowserDialog1.ShowDialog();
+            label10.Text = folderBrowserDialog1.SelectedPath;
+        }
+
+        private void checkBox1_CheckedChanged(object sender, EventArgs e)
+        {
+            if (checkBox1.Checked)
+            {
+                checkBox2.Visible = true;
+            }
+            else
+            {
+
+                checkBox2.Visible = false;
+            }
         }
     }
 }
